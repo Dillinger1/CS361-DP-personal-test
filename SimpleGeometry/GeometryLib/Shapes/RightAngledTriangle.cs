@@ -25,7 +25,8 @@ namespace GeometryLib.Shapes
 
         public override string Print()
         {
-            return $"Right-angled Triangle: sides {this.Side1} {this.Side2} {this.Side3}, area = {this.Area()}";
+            return String.Format("Right-angled Triangle: sides {0} {1} {2}, area = {3}", 
+            this.Side1, this.Side2, this.Side3, this.Area());
         }
     }
 }

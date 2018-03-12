@@ -12,6 +12,7 @@ namespace SimpleGeometry
     {
         static void Main(string[] args)
         {
+            
             List<Shape> shapes = new List<Shape>();
             shapes.Add(new Circle(1));
             shapes.Add(new Triangle(6, 5, 4));
